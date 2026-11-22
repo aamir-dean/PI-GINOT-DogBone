@@ -846,4 +846,4 @@ MIT — see `LICENSE`.
 
 ## Authors
 
-**Betim Bahtiri and Aamir Dean**  
+Betim Bahtiri and Aamir Dean 
