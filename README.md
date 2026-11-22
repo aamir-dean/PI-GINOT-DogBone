@@ -1,10 +1,10 @@
 # Energy-PI-GINOT — solution-label-free variational operator learning for stress-concentration families
 
-Energy-PI-GINOT learns **family-specific parametric solution operators for finite-strain stress-concentration problems** on notched, holed, filleted and inclusion-containing specimens. Exact geometry descriptors and spatial coordinates are mapped to displacement fields, from which stresses and stress-concentration quantities are derived.
+Energy-PI-GINOT learns **family-specific parametric solution operators for finite-strain stress-concentration problems** on notched, holed, filleted, and inclusion-containing specimens. Exact geometry descriptors and spatial coordinates are mapped to displacement fields, from which stresses and stress-concentration quantities are derived.
 
-Training is performed by minimizing the potential energy of a compressible Neo-Hookean solid using per-step resampled quadrature. **No finite-element displacement or stress solution labels enter the training objective.** Finite-element solutions are used for monitoring, verification and post-training evaluation.
+Training is performed by minimizing the potential energy of a compressible Neo-Hookean solid using per-step resampled quadrature. **No finite-element displacement or stress solution labels enter the training objective.** Finite-element solutions are used for monitoring, verification, and post-training evaluation.
 
-The repository contains the five geometry families, finite-strain plane-stress formulation, admissible trial-field construction, geometry-conditioned neural operator, training workflow, verified finite-element reference solver, held-out evaluation sets, diagnostic studies and the records underlying the reported results.
+The repository contains the five geometry families, finite-strain plane-stress formulation, admissible trial-field construction, geometry-conditioned neural operator, training workflow, verified finite-element reference solver, held-out evaluation sets, diagnostic studies, and the records underlying the reported results.
 
 <p align="center">
  <img src="docs/pi_ginot_architecture_animated.gif" alt="Energy-PI-GINOT architecture: geometry conditioning, spatial decoder, admissible trial field and variational energy training" width="100%">
@@ -830,9 +830,9 @@ No result demonstrates:
 
 This repository accompanies the manuscript:
 
-A. Dean, B. Bahtiri, M. K. Khraisheh
+**A. Dean, B. Bahtiri, M. K. Khraisheh**
 
-Energy-trained geometry-conditioned neural operators for stress concentrations in finite-strain solids: verification hierarchy, failure modes and extrapolation limits
+**Energy-trained geometry-conditioned neural operators for stress concentrations in finite-strain solids: verification hierarchy, failure modes and extrapolation limits**
 
 Citation details will be updated upon publication.
 
@@ -846,4 +846,16 @@ MIT — see `LICENSE`.
 
 ## Authors
 
-Betim Bahtiri and Aamir Dean 
+**Aamir Dean**  
+College of Science and Engineering  
+Hamad Bin Khalifa University  
+Doha, Qatar
+
+**Betim Bahtiri**  
+D2E – Data-Driven Engineering  
+Garbsen, Germany
+
+**Marwan K. Khraisheh**  
+College of Science and Engineering  
+Hamad Bin Khalifa University  
+Doha, Qatar
